@@ -1,3 +1,6 @@
+import asuIcon from "../assets/asu.png";
+import vtuIcon from "../assets/vtu.png";
+
 export const personal = {
     name: "Sagar Subbaraya",
     location: "Tempe, AZ",
@@ -16,14 +19,14 @@ export const education = [
         location: "Tempe, AZ",
         degree: "Master of Science in Computer Science",
         gpa: "3.81 / 4.00",
-        icon: "/portfolio/src/assets/asu.png",
+        icon: asuIcon,
     },
     {
         school: "Visvesvaraya Technological University",
         location: "Belagavi, India",
         degree: "Bachelor of Engineering (Honors) in Computer Science",
         gpa: "3.54 / 4.00",
-        icon: "/portfolio/src/assets/vtu.png",
+        icon: vtuIcon,
     },
 ];
 const DI = "https://cdn.jsdelivr.net/npm/devicon@2.16.0/icons";
